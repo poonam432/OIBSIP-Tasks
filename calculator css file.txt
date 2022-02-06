@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(79, 70, 121, 0.534);
+}
+
+.container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 20px;
+    margin: auto;
+    border-color: black;
+    border-radius: 20px;
+}
+.background {
+    display: inline-block;
+    background: lightblue;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+button{
+    font-size: 25px;
+    height: 45px;
+    width: 55px;
+    background:  black;
+    border-color: gray;
+    border-radius: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

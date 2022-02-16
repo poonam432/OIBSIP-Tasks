@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=EB+Garamond&family=Josefin+Sans:wght@300&family=Spartan:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background: black;
+    height: 300px;
+}
+
+.Intro{
+    text-align: center;
+    color: white;
+
+}
+
+.Intro h1{
+    padding: 100px 0px 10px 0px;
+    font-family: 'EB Garamond', serif;
+}
+
+.Intro h2{
+    font-family: 'EB Garamond', serif;
+}
+
+.content{
+    height: 300px;
+    display: flex;
+}
+
+.image {
+    float: right;
+    margin:0px 0px 0px 500px;
+    transition: transform 0.5s;
+}
+.image:hover{
+    transform: translateX(-2px);
+}
+.contentbox h3{
+    padding: 40px 0px 0px 100px;
+    font-size: 30px;
+    font-family: 'Cardo', serif;
+    transition: transform 0.5s;
+}
+
+.contentbox h3:hover{
+    transform: translateY(-5px);
+}
+.Biography{
+    background-color: black;
+    height: 500px;
+}
+
+.box h2{
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    padding-top: 30px;
+    padding-left: 200px;
+    font-family: 'EB Garamond', serif;
+}
+
+.box p{
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    margin: 20px 0px 0px 10px;
+    padding-left: 200px;
+    font-family: 'EB Garamond', serif;
+    transition: transform 0.5s;
+}
+
+.box p:hover{
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: black;
+}
+
+hr{
+    margin: 0px 100px 0px 100px;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px 20px 40px;
+    font-family: 'Spartan', sans-serif
+}
